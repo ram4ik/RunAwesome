@@ -15,6 +15,7 @@
 		95F1367826A5506A0008CDCF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1367726A5506A0008CDCF /* TabBar.swift */; };
 		95F1367A26A551CE0008CDCF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1367926A551CE0008CDCF /* HomeViewController.swift */; };
 		95F1367C26A551FE0008CDCF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1367B26A551FE0008CDCF /* HistoryViewController.swift */; };
+		95F1368226A556700008CDCF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368126A556700008CDCF /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		95F1367726A5506A0008CDCF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		95F1367926A551CE0008CDCF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		95F1367B26A551FE0008CDCF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		95F1368126A556700008CDCF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,9 @@
 		1D3644FE26A4B55200B0C248 /* RunAwesome */ = {
 			isa = PBXGroup;
 			children = (
+				95F1368026A5565E0008CDCF /* Views */,
 				95F1367626A550580008CDCF /* Helpers */,
 				1D36451626A4B64F00B0C248 /* ViewControllers */,
-				1D36451526A4B64900B0C248 /* Views */,
 				1D36451326A4B58E00B0C248 /* AppStuff */,
 			);
 			path = RunAwesome;
@@ -78,13 +80,6 @@
 				1D36450D26A4B55600B0C248 /* Info.plist */,
 			);
 			path = AppStuff;
-			sourceTree = "<group>";
-		};
-		1D36451526A4B64900B0C248 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		1D36451626A4B64F00B0C248 /* ViewControllers */ = {
@@ -103,6 +98,14 @@
 				95F1367726A5506A0008CDCF /* TabBar.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		95F1368026A5565E0008CDCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95F1368126A556700008CDCF /* GradientView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +181,7 @@
 				1D36450026A4B55200B0C248 /* AppDelegate.swift in Sources */,
 				1D36450226A4B55200B0C248 /* SceneDelegate.swift in Sources */,
 				95F1367C26A551FE0008CDCF /* HistoryViewController.swift in Sources */,
+				95F1368226A556700008CDCF /* GradientView.swift in Sources */,
 				1D36451826A4B68800B0C248 /* BaseViewController.swift in Sources */,
 				95F1367826A5506A0008CDCF /* TabBar.swift in Sources */,
 			);
