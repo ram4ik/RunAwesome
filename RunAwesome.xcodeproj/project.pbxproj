@@ -18,6 +18,7 @@
 		95F1368226A556700008CDCF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368126A556700008CDCF /* GradientView.swift */; };
 		95F1368726A55CDA0008CDCF /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368626A55CDA0008CDCF /* CircularButton.swift */; };
 		95F1368926A55E720008CDCF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368826A55E720008CDCF /* LocationManager.swift */; };
+		95F1368B26A6B06C0008CDCF /* CurrentRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368A26A6B06C0008CDCF /* CurrentRunViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		95F1368126A556700008CDCF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		95F1368626A55CDA0008CDCF /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		95F1368826A55E720008CDCF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		95F1368A26A6B06C0008CDCF /* CurrentRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				1D36451726A4B68800B0C248 /* BaseViewController.swift */,
 				95F1367926A551CE0008CDCF /* HomeViewController.swift */,
 				95F1367B26A551FE0008CDCF /* HistoryViewController.swift */,
+				95F1368A26A6B06C0008CDCF /* CurrentRunViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				1D36450226A4B55200B0C248 /* SceneDelegate.swift in Sources */,
 				95F1367C26A551FE0008CDCF /* HistoryViewController.swift in Sources */,
 				95F1368226A556700008CDCF /* GradientView.swift in Sources */,
+				95F1368B26A6B06C0008CDCF /* CurrentRunViewController.swift in Sources */,
 				1D36451826A4B68800B0C248 /* BaseViewController.swift in Sources */,
 				95F1367826A5506A0008CDCF /* TabBar.swift in Sources */,
 				95F1368926A55E720008CDCF /* LocationManager.swift in Sources */,
