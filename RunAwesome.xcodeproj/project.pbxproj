@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		95F1368726A55CDA0008CDCF /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368626A55CDA0008CDCF /* CircularButton.swift */; };
 		95F1368926A55E720008CDCF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368826A55E720008CDCF /* LocationManager.swift */; };
 		95F1368B26A6B06C0008CDCF /* CurrentRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1368A26A6B06C0008CDCF /* CurrentRunViewController.swift */; };
+		CC600CCA66A891F53A305099 /* Pods_RunAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5290C7A448B364718145749D /* Pods_RunAwesome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1D36450B26A4B55600B0C248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D36450D26A4B55600B0C248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D36451726A4B68800B0C248 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5290C7A448B364718145749D /* Pods_RunAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95580A3726A82C310051B3DD /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		95580A3926A834BC0051B3DD /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		95F1367726A5506A0008CDCF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		95F1368626A55CDA0008CDCF /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		95F1368826A55E720008CDCF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		95F1368A26A6B06C0008CDCF /* CurrentRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunViewController.swift; sourceTree = "<group>"; };
+		9C35456E71AB0C8AEB0B80E5 /* Pods-RunAwesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAwesome.debug.xcconfig"; path = "Target Support Files/Pods-RunAwesome/Pods-RunAwesome.debug.xcconfig"; sourceTree = "<group>"; };
+		BED15243BC165E62D48DE609 /* Pods-RunAwesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAwesome.release.xcconfig"; path = "Target Support Files/Pods-RunAwesome/Pods-RunAwesome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC600CCA66A891F53A305099 /* Pods_RunAwesome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,8 @@
 			children = (
 				1D3644FE26A4B55200B0C248 /* RunAwesome */,
 				1D3644FD26A4B55200B0C248 /* Products */,
+				B91DD8C183427D9E8CE3C6B2 /* Pods */,
+				914B00B4825ACB6D344566A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +110,14 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		914B00B4825ACB6D344566A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5290C7A448B364718145749D /* Pods_RunAwesome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95F1367626A550580008CDCF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +138,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B91DD8C183427D9E8CE3C6B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C35456E71AB0C8AEB0B80E5 /* Pods-RunAwesome.debug.xcconfig */,
+				BED15243BC165E62D48DE609 /* Pods-RunAwesome.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D36451026A4B55600B0C248 /* Build configuration list for PBXNativeTarget "RunAwesome" */;
 			buildPhases = (
+				DCEF8F65D63640E612C5103A /* [CP] Check Pods Manifest.lock */,
 				1D3644F826A4B55200B0C248 /* Sources */,
 				1D3644F926A4B55200B0C248 /* Frameworks */,
 				1D3644FA26A4B55200B0C248 /* Resources */,
+				4547220BB54F64A5556CD523 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +212,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4547220BB54F64A5556CD523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunAwesome/Pods-RunAwesome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RunAwesome/Pods-RunAwesome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RunAwesome/Pods-RunAwesome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCEF8F65D63640E612C5103A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunAwesome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D3644F826A4B55200B0C248 /* Sources */ = {
@@ -339,10 +407,12 @@
 		};
 		1D36451126A4B55600B0C248 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C35456E71AB0C8AEB0B80E5 /* Pods-RunAwesome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
 				INFOPLIST_FILE = RunAwesome/AppStuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,10 +427,12 @@
 		};
 		1D36451226A4B55600B0C248 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED15243BC165E62D48DE609 /* Pods-RunAwesome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
 				INFOPLIST_FILE = RunAwesome/AppStuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
