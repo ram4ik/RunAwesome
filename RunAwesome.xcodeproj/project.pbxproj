@@ -12,6 +12,9 @@
 		1D36450926A4B55600B0C248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D36450826A4B55600B0C248 /* Assets.xcassets */; };
 		1D36450C26A4B55600B0C248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D36450A26A4B55600B0C248 /* LaunchScreen.storyboard */; };
 		1D36451826A4B68800B0C248 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D36451726A4B68800B0C248 /* BaseViewController.swift */; };
+		1D3E1D2726AC8914009D4B14 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2626AC8914009D4B14 /* Run.swift */; };
+		1D3E1D2926AC8A34009D4B14 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2826AC8A34009D4B14 /* Location.swift */; };
+		1D3E1D2B26AC8CAD009D4B14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2A26AC8CAD009D4B14 /* Constants.swift */; };
 		95580A3826A82C310051B3DD /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580A3726A82C310051B3DD /* Int+Extensions.swift */; };
 		95580A3A26A834BC0051B3DD /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580A3926A834BC0051B3DD /* Double+Extensions.swift */; };
 		95580A3C26AAD4300051B3DD /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580A3B26AAD4300051B3DD /* HistoryTableViewCell.swift */; };
@@ -33,6 +36,9 @@
 		1D36450B26A4B55600B0C248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D36450D26A4B55600B0C248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D36451726A4B68800B0C248 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1D3E1D2626AC8914009D4B14 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		1D3E1D2826AC8A34009D4B14 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1D3E1D2A26AC8CAD009D4B14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5290C7A448B364718145749D /* Pods_RunAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95580A3726A82C310051B3DD /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		95580A3926A834BC0051B3DD /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		1D3644FE26A4B55200B0C248 /* RunAwesome */ = {
 			isa = PBXGroup;
 			children = (
+				1D3E1D2526AC88FB009D4B14 /* Models */,
 				95F1368026A5565E0008CDCF /* Views */,
 				95F1367626A550580008CDCF /* Helpers */,
 				1D36451626A4B64F00B0C248 /* ViewControllers */,
@@ -112,6 +119,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		1D3E1D2526AC88FB009D4B14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D3E1D2626AC8914009D4B14 /* Run.swift */,
+				1D3E1D2826AC8A34009D4B14 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		914B00B4825ACB6D344566A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +143,7 @@
 				95F1368826A55E720008CDCF /* LocationManager.swift */,
 				95580A3726A82C310051B3DD /* Int+Extensions.swift */,
 				95580A3926A834BC0051B3DD /* Double+Extensions.swift */,
+				1D3E1D2A26AC8CAD009D4B14 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -268,7 +285,10 @@
 				95580A3C26AAD4300051B3DD /* HistoryTableViewCell.swift in Sources */,
 				95F1367A26A551CE0008CDCF /* HomeViewController.swift in Sources */,
 				1D36450026A4B55200B0C248 /* AppDelegate.swift in Sources */,
+				1D3E1D2726AC8914009D4B14 /* Run.swift in Sources */,
 				1D36450226A4B55200B0C248 /* SceneDelegate.swift in Sources */,
+				1D3E1D2B26AC8CAD009D4B14 /* Constants.swift in Sources */,
+				1D3E1D2926AC8A34009D4B14 /* Location.swift in Sources */,
 				95F1367C26A551FE0008CDCF /* HistoryViewController.swift in Sources */,
 				95F1368226A556700008CDCF /* GradientView.swift in Sources */,
 				95F1368B26A6B06C0008CDCF /* CurrentRunViewController.swift in Sources */,
