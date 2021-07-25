@@ -25,7 +25,6 @@ class HistoryViewController: BaseViewController {
     private lazy var tableView: UITableView = {
         let v = UITableView()
         v.translatesAutoresizingMaskIntoConstraints = false
-        v.allowsSelection = false
         v.delegate = self
         v.dataSource = self
         v.register(HistoryTableViewCell.self, forCellReuseIdentifier: Self.reuseId)
@@ -72,24 +71,26 @@ class HistoryViewController: BaseViewController {
 extension HistoryViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: Self.reuseId) as? HistoryTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: Self.reuseId) as? HistoryTableViewCell, let run = Run.getAllRuns()?[indexPath.row] else {
             return UITableViewCell()
         }
-        
-        cell.totalMiles = Double(indexPath.row)
-        cell.totalTime = "0:23:12"
-        cell.entryDate = "12/12/2021"
-        
+        cell.configure(run: run)
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return Run.getAllRuns()?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let run = Run.getAllRuns()?[indexPath.row] else {
+            return
+        }
+        
+        print(run.distance.meterToMiles().toString(places: 2))
+    }
 }

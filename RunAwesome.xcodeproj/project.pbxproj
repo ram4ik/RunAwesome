@@ -15,6 +15,7 @@
 		1D3E1D2726AC8914009D4B14 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2626AC8914009D4B14 /* Run.swift */; };
 		1D3E1D2926AC8A34009D4B14 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2826AC8A34009D4B14 /* Location.swift */; };
 		1D3E1D2B26AC8CAD009D4B14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2A26AC8CAD009D4B14 /* Constants.swift */; };
+		1D3E1D2D26AD226E009D4B14 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D2C26AD226E009D4B14 /* Date+Extensions.swift */; };
 		95580A3826A82C310051B3DD /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580A3726A82C310051B3DD /* Int+Extensions.swift */; };
 		95580A3A26A834BC0051B3DD /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580A3926A834BC0051B3DD /* Double+Extensions.swift */; };
 		95580A3C26AAD4300051B3DD /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580A3B26AAD4300051B3DD /* HistoryTableViewCell.swift */; };
@@ -39,6 +40,7 @@
 		1D3E1D2626AC8914009D4B14 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		1D3E1D2826AC8A34009D4B14 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		1D3E1D2A26AC8CAD009D4B14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D3E1D2C26AD226E009D4B14 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		5290C7A448B364718145749D /* Pods_RunAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95580A3726A82C310051B3DD /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		95580A3926A834BC0051B3DD /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				95580A3726A82C310051B3DD /* Int+Extensions.swift */,
 				95580A3926A834BC0051B3DD /* Double+Extensions.swift */,
 				1D3E1D2A26AC8CAD009D4B14 /* Constants.swift */,
+				1D3E1D2C26AD226E009D4B14 /* Date+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				1D3E1D2726AC8914009D4B14 /* Run.swift in Sources */,
 				1D36450226A4B55200B0C248 /* SceneDelegate.swift in Sources */,
 				1D3E1D2B26AC8CAD009D4B14 /* Constants.swift in Sources */,
+				1D3E1D2D26AD226E009D4B14 /* Date+Extensions.swift in Sources */,
 				1D3E1D2926AC8A34009D4B14 /* Location.swift in Sources */,
 				95F1367C26A551FE0008CDCF /* HistoryViewController.swift in Sources */,
 				95F1368226A556700008CDCF /* GradientView.swift in Sources */,
