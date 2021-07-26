@@ -12,7 +12,7 @@ final class HistoryTableViewCell: UITableViewCell {
     // MARK:- external props
     var totalMiles: Double = 0.0 {
         didSet {
-            totalMilesLabel.text = String(format: "%0.1f", totalMiles)
+            totalMilesLabel.text = String(format: "%0.2f", totalMiles)
             layoutIfNeeded()
         }
     }
